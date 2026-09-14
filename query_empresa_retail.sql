@@ -49,3 +49,23 @@ insert into campania(cam_nombre,cam_presupuesto,cam_fecha_inicio,cam_fecha_final
 insert into campania(cam_nombre,cam_presupuesto,cam_fecha_inicio,cam_fecha_final,canal_can_id_canal) values ('dia del gato','600000','24/11/20','24/11/30','5');
 insert into campania(cam_nombre,cam_presupuesto,cam_fecha_inicio,cam_fecha_final,canal_can_id_canal) values ('dia del padre','400000','20/05/15','20/05/15','6');
 
+
+/*Tabla interaccion*/
+insert into interaccion(int_tipo, int_fecha, campania_cam_id_campania, cliente_cli_id_cliente) values ('clic', '26/04/27', 1, 1);
+insert into interaccion(int_tipo, int_fecha, campania_cam_id_campania, cliente_cli_id_cliente) values ('comentario', '23/10/08', 3, 3);
+insert into interaccion(int_tipo, int_fecha, campania_cam_id_campania, cliente_cli_id_cliente) values ('descarga', '24/11/22', 4, 4);
+insert into interaccion(int_tipo, int_fecha, campania_cam_id_campania, cliente_cli_id_cliente) values ('clic', '20/05/15', 5, 8);
+insert into interaccion(int_tipo, int_fecha, campania_cam_id_campania, cliente_cli_id_cliente) values ('comentario', '23/10/08', 3, 3);
+insert into interaccion(int_tipo, int_fecha, campania_cam_id_campania, cliente_cli_id_cliente) values ('descarga', '25/07/13', 2, 5);
+
+
+insert into conversion (con_tipo,con_valor,con_fecha,cliente_cli_id_cliente) values ();
+
+/*Tabla conversion*/
+insert into conversion(con_tipo, con_valor, con_fecha, cliente_cli_id_cliente) values ('compra', 120000, '26/04/28', 1);
+insert into conversion(con_tipo, con_valor, con_fecha, cliente_cli_id_cliente) values ('registro', 0, '25/07/15', 5);
+insert into conversion(con_tipo, con_valor, con_fecha, cliente_cli_id_cliente) values ('suscripcion', 35000, '23/10/09', 3);
+insert into conversion(con_tipo, con_valor, con_fecha, cliente_cli_id_cliente) values ('compra', 85000, '24/11/25', 4);
+insert into conversion(con_tipo, con_valor, con_fecha, cliente_cli_id_cliente) values ('compra', 200000, '20/05/16', 8);
+
+ 
