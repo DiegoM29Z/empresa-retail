@@ -49,6 +49,12 @@ insert into campania(cam_nombre,cam_presupuesto,cam_fecha_inicio,cam_fecha_final
 insert into campania(cam_nombre,cam_presupuesto,cam_fecha_inicio,cam_fecha_final,canal_can_id_canal) values ('dia del gato','600000','24/11/20','24/11/30','5');
 insert into campania(cam_nombre,cam_presupuesto,cam_fecha_inicio,cam_fecha_final,canal_can_id_canal) values ('dia del padre','400000','20/05/15','20/05/15','6');
 
+/* tabla interaccion */
+insert into interaccion (int_tipo,int_fecha,campania_cam_id_campania,cliente_cli_id_cliente) values ('visita','26/05/27','id campania','id_cliente');
+insert into interaccion (int_tipo,int_fecha,campania_cam_id_campania,cliente_cli_id_cliente) values ();
+
+
+
 
 /*Tabla interaccion*/
 insert into interaccion(int_tipo, int_fecha, campania_cam_id_campania, cliente_cli_id_cliente) values ('clic', '26/04/27', 1, 1);
